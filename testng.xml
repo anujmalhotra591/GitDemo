@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="com.anuj.utils.Listeners" />
+</listeners>
+
+  <test thread-count="5" name="EcomTest1">
+    <classes>
+      <class name="com.anuj.AppiumFramework.EcomTest1"/>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->
